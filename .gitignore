@@ -13,3 +13,7 @@ node_modules/*
 /git
 .git/*
 Thumbs.db
+.env.*.php
+.env.php
+.env
+
