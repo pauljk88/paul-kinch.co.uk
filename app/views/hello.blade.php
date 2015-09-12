@@ -6,6 +6,16 @@
 			<h2>Navigation</h2>
 		</div>
 	</div>
+	<div class="parallax-row">
+		<div class="parallax-background">
+		  <div class="intro-text">
+		    I'm a parallax!
+		    <p><i class="fi-arrow-down"></i></p>
+		    <button class="top-parallax-btn">I am a Button</button>
+		  </div>
+		</div>
+	</div>
+
 @stop
 
 @section('bio-row')
