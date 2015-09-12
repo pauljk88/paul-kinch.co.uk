@@ -1,11 +1,21 @@
 @import url(//fonts.googleapis.com/css?family=Lato:700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-
+@import 'colours';
 body {
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align:center;
 	color: #999;
+}
+
+.top-row {
+	background-color: $mainRowBg;
+}
+.centre-row {
+	background-color: $centreRowBg;
+}
+.bottom-row {
+	background-color: $mainRowBg;
 }
 
 .welcome {

@@ -1,14 +1,20 @@
 @extends('layouts.master')
 
 @section('top-row')
-	<p>top row here</p>
+	<div class="top-row">
+		<p>top row here</p>
+	</div>
 @stop
 
 @section('centre-row')
-	<p>centre row here</p>
+	<div class="centre-row">
+		<p>centre row here</p>
+	</div>
 	<p>Grumpy wizards make toxic brew for the evil Queen and Jack.</p>
 @stop
 
 @section('bottom-row')
-	<p>bottom row here</p>
+	<div class="bottom-row">
+		<p>bottom row here</p>
+	</div>
 @stop
