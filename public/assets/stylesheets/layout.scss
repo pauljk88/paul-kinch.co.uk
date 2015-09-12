@@ -1,6 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Lato:700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import 'colours';
+@import '../vendor/foundation/scss/foundation';
+
+
 body {
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -8,31 +11,100 @@ body {
 	color: #999;
 }
 
-.top-row {
-	background-color: $mainRowBg;
-}
-.centre-row {
-	background-color: $centreRowBg;
-}
-.bottom-row {
-	background-color: $mainRowBg;
-}
-
-.welcome {
-	width: 300px;
-	height: 200px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -150px;
-	margin-top: -100px;
-}
-
 a, a:visited {
 	text-decoration:none;
 }
 
+hr {
+	opacity: 0.2;
+}
+
 h1 {
+font-family: 'Source Sans Pro', sans-serif;
 	font-size: 32px;
 	margin: 16px 0 0 0;
+}
+
+h2 {
+	color: $primaryTitleColor;
+	margin:0;
+}
+
+.left {
+	float: left;
+}
+
+.copyright {
+	background: $footerBg;
+}
+
+.contact-row, .bio-row, .experience-row, .tools-row, .projects-row, .contact-row {
+	padding: 5em 0;
+}
+
+/*-- Top Nav Content --*/
+.nav-row {
+	background-color: $mainRowBg;
+	position: relative;
+    display: block;
+    top: 0;
+    width: 100%;
+}
+
+/*-- Bio Content --*/
+.bio-row {
+	background-color: $altRowBg;
+}
+
+/*-- Experience Content --*/
+.experience-row {
+	background-color: $centreRowBg;
+}
+
+/*-- Tools Content --*/
+.tools-row {
+	background-color: $altRowBg;
+}
+
+/*-- Projects Content --*/
+.projects-row {
+	background-color: $centreRowBg;
+}
+
+/*-- Contact Content --*/
+.contact-row {
+	background-color: $mainRowBg;
+	.contact-container {
+		@extend .large-12;
+		@extend .columns;
+	}
+}
+
+/*-- Parallax Content --*/
+.parallax-background {
+  background-color: #0078A0;
+  height: 620px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+}
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #fff;
 }

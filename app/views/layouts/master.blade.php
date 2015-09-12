@@ -8,11 +8,13 @@
 <script type="text/javascript" src="../js/min/expanded/scripts_header.min.js"></script>
 </head>
 <body>
-	@section('top-row')@show
+	@section('nav-row')@show
 
-	@section('centre-row')@show
+	@section('bio-row')@show
 
-	@section('bottom-row')@show
+	@section('experience-row')@show
+
+	@section('contact-row')@show
 
 <script type="text/javascript" src="../js/min/expanded/scripts_footer.min.js"></script>
 </body>
