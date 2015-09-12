@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+App::missing(function($exception)
+{
+	return Response::view('errors.missing', array(), 404);
+});
