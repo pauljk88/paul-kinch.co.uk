@@ -36,7 +36,8 @@ grunt.initConfig({
               '<%= paths.assets.vendor %>jquery.cookie/jquery.cookie.js',
               '<%= paths.assets.vendor %>jquery.placeholder/jquery.placeholder.js',
               '<%= paths.assets.vendor %>fastclick/lib/fastclick.js',
-              '<%= paths.assets.vendor %>foundation/js/foundation.js'
+              '<%= paths.assets.vendor %>foundation/js/foundation.js',
+              '<%= paths.assets.js %>mainJS.js'
           ],
           dest: '<%= paths.js %>expanded/scripts_footer.js',
       }
@@ -88,7 +89,7 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-contrib-compass');
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-concat');
-grunt.loadNpmTasks('grunt-contrib-uglify');
+// grunt.loadNpmTasks('grunt-contrib-uglify');
 // Task definition
-grunt.registerTask('default', ['sass', 'concat', 'uglify']);
+grunt.registerTask('default', ['sass', 'concat']);
 };

@@ -3,7 +3,6 @@
 /* -------------- */
 
 /*-- Backgrounds --*/
-
 $mainRowBg: #22313f; /*-- Ebony Clay --*/
 $centreRowBg: #dadfe1; /*-- Iron --*/
 $altRowBg: #f2f1ef; /*-- Cararra --*/
@@ -15,9 +14,16 @@ $primaryTitleColor: #999;
 $secondaryTitleColor: #fff;
 $parallaxTextHover: #000;
 
+/*-- Link --*/
+$navLinkColor: #fff;
+
 /*-- Hover --*/
-$linkHover: #fde3a7; /*-- Cape Honey --*/
+$linkHover: #fff; /*-- Cape Honey --*/
 $parallaxHoverBg: #fff;
+$activeNavHover: #fff;
+
+/*-- Active --*/
+$activeNav: #dadfe1; /*-- Iron --*/
 
 /*-- Border --*/
 $parallaxBtnBorder: #fff;

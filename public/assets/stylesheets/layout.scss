@@ -34,6 +34,14 @@ h2 {
 	float: left;
 }
 
+.no-padding {
+	padding: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
 .copyright {
 	background: $footerBg;
 }
@@ -51,6 +59,25 @@ h2 {
 	z-index: 1;
     top: 0;
     width: 100%;
+    ul {
+    	li {
+	    	list-style: none;
+	    	color: $navLinkColor;
+	    	&:hover {
+	    		color: $activeNavHover;
+	    	}
+	    	&.active{
+	    		font-weight: bold;
+	    		background-color: $activeNav;
+	    	}
+	    	a {
+	    		display: inherit;
+	    		&:hover {
+		    		color: $activeNavHover;
+		    	}
+	    	}
+	    }
+    }
 }
 
 /*-- Bio Content --*/
