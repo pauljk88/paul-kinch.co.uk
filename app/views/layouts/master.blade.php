@@ -21,5 +21,8 @@
 
 
 <script type="text/javascript" src="../js/expanded/scripts_footer.js"></script>
+<script type="text/javascript">
+	$(document).foundation('accordion');
+</script>
 </body>
 </html>

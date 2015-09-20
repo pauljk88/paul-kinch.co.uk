@@ -54,6 +54,7 @@ h2 {
 /*-- Top Nav Content --*/
 .nav-row {
 	background-color: $mainRowBg;
+  border-bottom: 0.15em solid $navBorderColor;
 	position: fixed;
   display: block;
   padding: 0;
