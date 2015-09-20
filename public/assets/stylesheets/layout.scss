@@ -55,7 +55,8 @@ h2 {
 .nav-row {
 	background-color: $mainRowBg;
 	position: fixed;
-    display: block;
+  display: block;
+  padding: 0;
 	z-index: 1;
     top: 0;
     width: 100%;
@@ -63,15 +64,17 @@ h2 {
     	li {
 	    	list-style: none;
 	    	color: $navLinkColor;
-	    	&:hover {
-	    		color: $activeNavHover;
-	    	}
-	    	&.active{
-	    		font-weight: bold;
-	    		background-color: $activeNav;
-	    	}
-	    	a {
-	    		display: inherit;
+        a.nav-item {
+          padding: 1em;
+          display: block;
+          &.active {
+            display: block;
+            font-weight: bold;
+            background-color: $activeNav;
+    	    	&:hover {
+    	    		color: $activeNavHover;
+    	    	}
+          }
 	    		&:hover {
 		    		color: $activeNavHover;
 		    	}
@@ -149,3 +152,49 @@ h2 {
   font-size: 20px;
   background-color: #fff;
 }
+
+
+/*--- NEW CONTENT ---*/
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+ 
+/* Navigation */
+ 
+
+
+ 
+/* Headings */
+ 
+h1 {
+  font-size: 5rem;
+  color: #34495E;
+}
+ 
+/* Sections */
+ 
+section {
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 500px;
+  text-align: center;
+}
+section:nth-child(even) {
+  background: #ecf0f1;
+}
+section:nth-child(odd) {
+  background: #bdc3c7;
+}
+.sections section:first-child {
+  margin-top: 60px;
+}
+section.active {}
