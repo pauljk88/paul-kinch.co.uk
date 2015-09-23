@@ -8,7 +8,7 @@ body {
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align:center;
-	color: #999;
+	color: $primaryTextColour;
 }
 
 a, a:visited {
@@ -17,6 +17,7 @@ a, a:visited {
 
 hr {
 	opacity: 0.2;
+  border-color: $hrBorderColor;
 }
 
 h1 {
@@ -44,6 +45,7 @@ h2 {
 
 .copyright {
 	background: $footerBg;
+  color: $copyRightColor;
 }
 
 .contact-row, .bio-row, .experience-row, .tools-row, .projects-row, .contact-row {
@@ -53,7 +55,7 @@ h2 {
 
 /*-- Top Nav Content --*/
 .nav-row {
-	background-color: $mainRowBg;
+	background-color: $navRowBg;
   border-bottom: 0.15em solid $navBorderColor;
 	position: fixed;
   display: block;
@@ -62,22 +64,25 @@ h2 {
     top: 0;
     width: 100%;
     ul {
+      &.top-nav {
+        .top-nav-right { padding: 0; }
+      }
     	li {
 	    	list-style: none;
 	    	color: $navLinkColor;
         a.nav-item {
-          padding: 1em;
+          color: $navLinkColor;
+          padding: 1em 0;
           display: block;
           &.active {
             display: block;
             font-weight: bold;
-            background-color: $activeNav;
-    	    	&:hover {
-    	    		color: $activeNavHover;
-    	    	}
+            color: $activeNavText;
+            background-color: $activeNavBg;
           }
 	    		&:hover {
-		    		color: $activeNavHover;
+            color: $activeNavText;
+		    		background-color: $activeNavHover;
 		    	}
 	    	}
 	    }
@@ -86,27 +91,27 @@ h2 {
 
 /*-- Bio Content --*/
 .bio-row {
-	background-color: $altRowBg;
+	background-color: $oddRowBg;
 }
 
 /*-- Experience Content --*/
 .experience-row {
-	background-color: $centreRowBg;
+	background-color: $evenRowBg;
 }
 
 /*-- Tools Content --*/
 .tools-row {
-	background-color: $altRowBg;
+	background-color: $oddRowBg;
 }
 
 /*-- Projects Content --*/
 .projects-row {
-	background-color: $centreRowBg;
+	background-color: $evenRowBg;
 }
 
 /*-- Contact Content --*/
 .contact-row {
-	background-color: $mainRowBg;
+	background-color: $oddRowBg;
 	.contact-container {
 		@extend .large-12;
 		@extend .columns;
@@ -190,10 +195,10 @@ section {
   text-align: center;
 }
 section:nth-child(even) {
-  background: #ecf0f1;
+  background: $evenRowBg;
 }
 section:nth-child(odd) {
-  background: #bdc3c7;
+  background: $oddRowBg;
 }
 .sections section:first-child {
   margin-top: 60px;

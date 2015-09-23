@@ -3,16 +3,18 @@
 /* -------------- */
 
 /*-- Backgrounds --*/
-$mainRowBg: #22313f; /*-- Ebony Clay --*/
-$centreRowBg: #dadfe1; /*-- Iron --*/
-$altRowBg: #f2f1ef; /*-- Cararra --*/
+$navRowBg: #25373D; /* --#f4f1bb Ebony Clay --*/
+$evenRowBg: #e6ebe0; /*-- #dadfe1  Iron --*/
+$oddRowBg: #f2f1ef; /*-- Cararra --*/
 $footerBg: #282830;
 $parallaxBg: #25373D;
 
 /*-- Text --*/
-$primaryTitleColor: #999;
+$primaryTextColour: #423f3f;
+$primaryTitleColor: #423f3f;
 $secondaryTitleColor: #fff;
 $parallaxTextHover: #000;
+$copyRightColor: #fff;
 
 /*-- Link --*/
 $navLinkColor: #fff;
@@ -20,11 +22,13 @@ $navLinkColor: #fff;
 /*-- Hover --*/
 $linkHover: #fff; /*-- Cape Honey --*/
 $parallaxHoverBg: #fff;
-$activeNavHover: #fff;
+$activeNavHover: #f2f1ef;
 
 /*-- Active --*/
-$activeNav: #dadfe1; /*-- Iron --*/
+$activeNavBg: #f2f1ef; /*-- #dadfe1 Iron --*/
+$activeNavText: #25373D;
 
 /*-- Border --*/
 $parallaxBtnBorder: #fff;
 $navBorderColor: #fff;
+$hrBorderColor:#25373D;
