@@ -16558,32 +16558,7 @@ return jQuery;
     reflow : function () {}
   };
 }(jQuery, window, window.document));
-;// $('a[href^="#"]').on('click', function(event) {
-
-//     var target = $( $(this).attr('href') );
-
-//     if( target.length ) {
-//         event.preventDefault();
-//         $('html, body').animate({
-//             scrollTop: target.offset().top
-//         }, 1000);
-//     }
-
-// });
-
-// $(function() {
-//       $( 'ul.top-nav .top-nav-left li' ).on( 'click', function() {
-//             $( this ).parent().find( 'li.active' ).removeClass( 'active' );
-//             $('.top-nav-right').find('li.active').removeClass('active');
-//             $( this ).addClass( 'active' );
-//       });
-//       $( 'ul.top-nav .top-nav-right li' ).on( 'click', function() {
-//             $( this ).parent().find( 'li.active' ).removeClass( 'active' );
-//             $('.top-nav-left').find('li.active').removeClass('active');
-//             $( this ).addClass( 'active' );
-//       });
-// });
-
+;
 var sections = $('section')
   , nav = $('nav')
   , nav_height = nav.outerHeight();
@@ -16616,3 +16591,18 @@ nav.find('a').on('click', function () {
   return false;
 });
 
+/*-- Smooth Scroll - Assumes no predefined links ref- https://css-tricks.com/snippets/jquery/smooth-scrolling/--*/
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
