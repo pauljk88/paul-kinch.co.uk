@@ -136,6 +136,9 @@ h2 {
   .top-parallax-btn{
     border: 1px solid $parallaxBtnBorder;
     background: none;
+    font-size: 1em;
+    color: $parallaxBtnTextColor;
+    padding: 1em;
     &:hover{
     	background: $parallaxHoverBg;
     	color: $parallaxTextHover;
@@ -144,7 +147,6 @@ h2 {
 }
 
 .intro-text {
-  font-size: 50px;
   color: #fff;
   text-align: center;
   margin-top: 7%;

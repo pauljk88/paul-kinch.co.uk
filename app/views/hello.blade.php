@@ -19,9 +19,8 @@
 	<div class="parallax-row">
 		<div class="parallax-background">
 		  <div class="intro-text">
-		    I'm a parallax!
-		    <p><i class="fi-arrow-down"></i></p>
-		    <button class="top-parallax-btn">I am a Button</button>
+		    <p>My picture here, with background and opacity</p>
+		    <a href="#Contact" class="top-parallax-btn">Find my info</a>
 		  </div>
 		</div>
 	</div>
@@ -172,20 +171,22 @@
 				<div class="row">
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
-						{{ HTML::link('mailto:pauljk1988@gmail.com', 'My Email')}}
+						{{ HTML::link('mailto:pauljk1988@gmail.com', 'Email - pauljk1988@gmail.com')}}
 					</div>
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
-						{{ HTML::link('tel:07970271781', 'My Mobile')}}
+						{{ HTML::link('tel:07970271781', 'Mobile - 07970271781')}}
+					</div>
+					<div class="large-12 columns large-centered">
 					</div>
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
-						{{ HTML::link('https://bitbucket.org/pauljk88/paul-kinch.co.uk', 'My BitBucket')}}
+						{{ HTML::link('https://bitbucket.org/pauljk88/paul-kinch.co.uk', 'BitBucket')}}
 
 					</div>
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
-						{{ HTML::link('https://github.com/pauljk88/paul-kinch.co.uk', 'My GitHub')}}
+						{{ HTML::link('https://github.com/pauljk88/paul-kinch.co.uk', 'GitHub')}}
 					</div>
 				</div>
 				<hr>
