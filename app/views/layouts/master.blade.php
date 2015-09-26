@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../css/layout.css">
 <script type="text/javascript" src="../js/expanded/scripts_header.js"></script>
 </head>
-<body>
+<body >
 
  	@section('nav-row')@show
 

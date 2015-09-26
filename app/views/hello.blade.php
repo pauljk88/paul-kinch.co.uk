@@ -5,17 +5,23 @@
 		<nav class="large-12 large-centered column">
 			<ul class="top-nav large-6 large-centered column no-margin">
 				<div class="top-nav-right large-12 medium-12 small-12 columns ">
-					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Biography', 'Biography', array( 'class' => 'nav-item' ))}}</li>
-					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Tools', 'Tools', array( 'class' => 'nav-item' ))}}</li>
-					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Projects', 'Projects', array( 'class' => 'nav-item' ))}}</li>
-					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Contact', 'Contact', array( 'class' => 'nav-item' ))}}</li>
+					<div class="no-margin no-padding large-5 column">
+						<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#PaulKinchLogo', 'PJK', array( 'class' => 'nav-item logo' ))}}</li>
+						<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#Biography', 'Biography', array( 'class' => 'nav-item' ))}}</li>
+					</div>
+					<div class="no-margin no-padding large-7 column">
+						<li class="no-margin no-padding large-4 small-4 columns">{{ HTML::link('#Tools', 'Tools', array( 'class' => 'nav-item' ))}}</li>
+						<li class="no-margin no-padding large-4 small-4 columns">{{ HTML::link('#Projects', 'Projects', array( 'class' => 'nav-item' ))}}</li>
+						<li class="no-margin no-padding large-4 small-4 columns">{{ HTML::link('#Contact', 'Contact', array( 'class' => 'nav-item' ))}}</li>
+					</div>
 				</div>
 			</ul>
 		</nav>
 	</div>
+	<div id="PaulKinchLogo"></div>
 	<div class="parallax-row">
-		<div class="parallax-background">
-		  <div class="intro-text">
+		<div class="parallax-background" >
+		  <div class="intro-text" >
 		    <p>My picture here, with background and opacity</p>
 		    <a href="#Contact" class="smooth-scroll">Find my info</a>
 		  </div>

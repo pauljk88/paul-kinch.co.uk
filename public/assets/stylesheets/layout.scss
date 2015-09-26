@@ -44,6 +44,12 @@ h2 {
 	margin: 0;
 }
 
+.logo{
+  background-position-y: .7rem;
+  background-repeat: no-repeat;
+  background-image: url('../images/logo.svg'); 
+}
+
 .copyright {
 	background: $footerBg;
   color: $copyRightColor;
