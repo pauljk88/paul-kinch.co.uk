@@ -169,6 +169,10 @@
 			<div class="contact-container ">
 				<hr>
 				<div class="row">
+					<div class="large-12 columns large-centered">
+						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+						{{ HTML::link('../downloads/paul-james-kinch-cv.pdf', 'Curriculum Vitae')}}
+					</div>
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 						{{ HTML::link('mailto:pauljk1988@gmail.com', 'Email - pauljk1988@gmail.com')}}
@@ -176,8 +180,6 @@
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 						{{ HTML::link('tel:07970271781', 'Mobile - 07970271781')}}
-					</div>
-					<div class="large-12 columns large-centered">
 					</div>
 					<div class="large-6 columns left">
 						{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
