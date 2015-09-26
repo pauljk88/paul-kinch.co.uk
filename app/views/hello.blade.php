@@ -49,7 +49,7 @@
 				        <div id="panel1c" class="content">
 				        <div class="row">
 				        	<div class="large-2 column">
-				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
 				        	<div class="large-10 column">
 				        	<p>Through my experience on setting up Web Projects, I have used Git, BitBucket, Forge and Shippable to track my work flow and push content to live.</p>
@@ -63,7 +63,7 @@
 				        <div id="panel2c" class="content">
 				        <div class="row">
 				        	<div class="large-2 column">
-				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
 				        	<div class="large-10 column"> 
 				        		I predominately work with Frameworks, notebly with the {{ HTML::link('#', 'Foundation Framework ')}}to form the base structure for most of my websites.</br>
@@ -77,7 +77,7 @@
 				        <div id="panel3c" class="content">
 				        <div class="row">
 				        	<div class="large-2 column">
-				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
 				        	<div class="large-10 column">I have been using {{ HTML::link('#', 'SASS')}} since 2012 and have not looked back. All of my projects use SASS and would not be complete without it.
 				        	</div>
@@ -89,7 +89,7 @@
 				        <div id="panel4c" class="content">
 				        <div class="row">
 				        	<div class="large-2 column">
-				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
 				        	<div class="large-10 column"> I have used JS for a variety of situations, mostly for low-end visuals. But I have recently started to look into larger Frameworks such as {{ HTML::link('#', 'Angular.js')}}
 				        	</div>
