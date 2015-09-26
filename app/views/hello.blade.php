@@ -168,7 +168,13 @@
 	<section class="projects-row" id="Projects">
 		<div class="row">
 		<h2>Projects</h2>
-		<p>Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami kevin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.</p>
+		<label>**Background Photo here of my laptop, on a desk or another Background**</label>
+			<div class="large-6 column">
+				<label>**Display text about the Project**</label>
+			</div>
+			<div class="large-6 column">
+				<label>**Display a Pic and a link of the Project**</label>
+			</div>
 		</div>
 	</section>
 @stop
@@ -178,7 +184,7 @@
 		<div class="row">
 			<h2>Contact</h2>
 			<div class="contact-container ">
-			<label>**Background picture here of my laptop**</label>
+			
 				<hr>
 				<div class="row">
 					<div class="large-12 columns large-centered">
