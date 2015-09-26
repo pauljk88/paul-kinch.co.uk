@@ -4,14 +4,11 @@
 	<div class="nav-row">
 		<nav class="large-12 large-centered column">
 			<ul class="top-nav large-6 large-centered column no-margin">
-				<div class="top-nav-left large-5 medium-12 small-12 columns no-padding">
-					<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#Biography', 'Biography', array( 'class' => 'nav-item' ))}}</li>
-					<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#Experience', 'Experience', array( 'class' => 'nav-item' ))}}</li>
-				</div>
-				<div class="top-nav-right large-7 medium-12 small-12 columns ">
-					<li class="no-margin no-padding large-4 small-4 columns">{{ HTML::link('#Tools', 'Tools', array( 'class' => 'nav-item' ))}}</li>
-					<li class="no-margin no-padding large-4 small-4 columns">{{ HTML::link('#Projects', 'Projects', array( 'class' => 'nav-item' ))}}</li>
-					<li class="no-margin no-padding large-4 small-4 columns">{{ HTML::link('#Contact', 'Contact', array( 'class' => 'nav-item' ))}}</li>
+				<div class="top-nav-right large-12 medium-12 small-12 columns ">
+					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Biography', 'Biography', array( 'class' => 'nav-item' ))}}</li>
+					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Tools', 'Tools', array( 'class' => 'nav-item' ))}}</li>
+					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Projects', 'Projects', array( 'class' => 'nav-item' ))}}</li>
+					<li class="no-margin no-padding large-3 small-3 columns">{{ HTML::link('#Contact', 'Contact', array( 'class' => 'nav-item' ))}}</li>
 				</div>
 			</ul>
 		</nav>
@@ -37,68 +34,64 @@
 @stop
 
 @section('experience-row')
-	<section class="experience-row" id="Experience">
-		<div class="row">
-		<h2>Experience</h2>
-			<p>I currently work at Dentalserve, a dental company which comprises the following companies: Costech Elite, Nash Smile Centre, SaberToothWhite System, Comflexin Dentures and HealthCare Elite Dental Centre.</p>
-			<div class="large-6 column">
-				Web Design
-			</div>
-			<div class="large-6 column">
-				Web Development
-			</div>
-			<div class="large-6 column">
-				SEO
-			</div>
-			<div class="large-6 column">
-				Responsive Web Design
-			</div>
-
-		</div>
-	</section>
 	<section class="tools-row" id="Tools">
 		<div class="row">	
-			<h2>Tools</h2>
-				<p>At Dentalserve, I create and maintain all the websites using: HTML(5), CSS, SASS/SCSS, PHP 4/5, Laravel, ASP.NET, MySQL, JavaScript, JQuery and Angular JS. Tracking the develop of each project using Git and following design principles such as DRY and TTD to produce efficient maintainable code.</p>
+			<h2>Tools &amp; Experience</h2>
+				<p>All of these tools I have used within a working environment, under tight deadlines and as a team, this list is also not exshautive. Tracking the develop of each project using Git and following design principles such as DRY and TTD to produce efficient maintainable code.</p>
 		</div>
 		<div class="row">
 			<div class="large-6 column no-padding">
-			<h2>Skills</h2>
 				<ul class="large-12 column large-centered" style="list-style:none;">
 				  <li>
 				    <ul class="accordion" data-accordion="myAccordionGroup">
-				      <li class="accordion-navigation">
-				        <a href="#panel1c">Name of a Tool 1</a>
+				    <li class="accordion-navigation">
+				        <a href="#panel1c">Git, Grunt, Gulp<span class="competence">Confident / Capable</a>
 				        <div id="panel1c" class="content">
 				        <div class="row">
-				        	<div class="large-4 column">
+				        	<div class="large-2 column">
 				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
-				        	<div class="large-8 column"> Display Icon and its use
+				        	<div class="large-10 column">
+				        	<p>Through my experience on setting up Web Projects, I have used Git, BitBucket, Forge and Shippable to track my work flow and push content to live.</p>
+				        	<p>I am also familar with Nodejs, Grunt and Gulp to package up my websites for fast and easier development</p>
 				        	</div>
 				        </div>
 				        </div>
 				      </li>
 				      <li class="accordion-navigation">
-				        <a href="#panel2c">Name of a Tool 2</a>
+				        <a href="#panel2c">XHTML, Foundation<span class="competence">Confident</a>
 				        <div id="panel2c" class="content">
 				        <div class="row">
-				        	<div class="large-4 column">
+				        	<div class="large-2 column">
 				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
-				        	<div class="large-8 column"> Display Icon and its use
+				        	<div class="large-10 column"> 
+				        		I predominately work with Frameworks, notebly with the {{ HTML::link('#', 'Foundation Framework ')}}to form the base structure for most of my websites.</br>
+				        		I have also started to look into {{ HTML::link('#', 'View.js')}} for some side Projects.
 				        	</div>
 				        </div>
 				        </div>
 				      </li>
 				      <li class="accordion-navigation">
-				        <a href="#panel3c">Name of a Tool 3</a>
+				        <a href="#panel3c">CSS, SASS/SCSS<span class="competence">Confident</a>
 				        <div id="panel3c" class="content">
 				        <div class="row">
-				        	<div class="large-4 column">
+				        	<div class="large-2 column">
 				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
-				        	<div class="large-8 column"> Display Icon and its use
+				        	<div class="large-10 column">I have been using {{ HTML::link('#', 'SASS')}} since 2012 and have not looked back. All of my projects use SASS and would not be complete without it.
+				        	</div>
+				        </div>
+				        </div>
+				      </li>
+				      <li class="accordion-navigation">
+				        <a href="#panel4c">JS, JQuery, Angular<span class="competence">Capable</a>
+				        <div id="panel4c" class="content">
+				        <div class="row">
+				        	<div class="large-2 column">
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	</div>
+				        	<div class="large-10 column"> I have used JS for a variety of situations, mostly for low-end visuals. But I have recently started to look into larger Frameworks such as {{ HTML::link('#', 'Angular.js')}}
 				        	</div>
 				        </div>
 				        </div>
@@ -108,42 +101,54 @@
 				</ul>
 			</div>
 			<div class="large-6 column no-padding">
-			<h2>Services</h2>
 				<ul class="large-12 column large-centered" style="list-style:none;">
 				  <li>
 				    <ul class="accordion" data-accordion="myAccordionGroup2">
 				      <li class="accordion-navigation">
-				        <a href="#panel4c">Name of a Tool 4</a>
-				        <div id="panel4c" class="content">
-				        <div class="row">
-				        	<div class="large-4 column">
-				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
-				        	</div>
-				        	<div class="large-8 column"> Display Icon and its use
-				        	</div>
-				        </div>
-				        </div>
-				      </li>
-				      <li class="accordion-navigation">
-				        <a href="#panel5c">Name of a Tool 5</a>
+				        <a href="#panel5c">PHP, Laravel<span class="competence">Capable</a>
 				        <div id="panel5c" class="content">
 				        <div class="row">
-				        	<div class="large-4 column">
+				        	<div class="large-2 column">
 				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
-				        	<div class="large-8 column"> Display Icon and its use
+				        	<div class="large-10 column">From 2013, all my projects have had a {{ HTML::link('#', 'Laravel')}} Framework, touching upon other frameworks such as {{ HTML::link('#', 'codeIgniter')}} and ASP.net, but my main experience is within Laravel
 				        	</div>
 				        </div>
 				        </div>
 				      </li>
 				      <li class="accordion-navigation">
-				        <a href="#panel6c">Name of a Tool 6</a>
+				        <a href="#panel6c">MySQL<span class="competence">Minimal / Capable</a>
 				        <div id="panel6c" class="content">
 				        <div class="row">
-				        	<div class="large-4 column">
+				        	<div class="large-2 column">
 				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
 				        	</div>
-				        	<div class="large-8 column"> Display Icon and its use
+				        	<div class="large-10 column">Used in conjunction with Laravel, my knowledge here will be with regards obtaining emails and recording them and running Reports from Databases to product client details.
+				        	<p>Although I am capable, I feel that my experience is focused in other areas.</p>
+				        	</div>
+				        </div>
+				        </div>
+				      </li>
+				      <li class="accordion-navigation">
+				        <a href="#panel7c">SEO<span class="competence">Confident</a>
+				        <div id="panel7c" class="content">
+				        <div class="row">
+				        	<div class="large-2 column">
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	</div>
+				        	<div class="large-10 column"> Display Icon and its use
+				        	</div>
+				        </div>
+				        </div>
+				      </li>
+				      <li class="accordion-navigation">
+				        <a href="#panel8c">CMS<span class="competence">Confident</a>
+				        <div id="panel8c" class="content">
+				        <div class="row">
+				        	<div class="large-2 column">
+				        	{{ HTML::image('path', 'icon', array( 'width' => 70, 'height' => 70 )) }}
+				        	</div>
+				        	<div class="large-10 column"> Display Icon and its use
 				        	</div>
 				        </div>
 				        </div>

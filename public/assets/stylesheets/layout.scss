@@ -95,14 +95,13 @@ h2 {
 	background-color: $oddRowBg;
 }
 
-/*-- Experience Content --*/
-.experience-row {
-	background-color: $evenRowBg;
-}
-
 /*-- Tools Content --*/
 .tools-row {
 	background-color: $oddRowBg;
+  .competence {
+    font-size: .7em;
+    display: block;
+  }  
 }
 
 /*-- Projects Content --*/
