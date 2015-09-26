@@ -51,6 +51,7 @@ h2 {
 .contact-row, .bio-row, .experience-row, .tools-row, .projects-row, .contact-row {
 	padding: 5em 0;
 	position: relative;
+  height: 40rem; /*temp*/
 }
 
 /*-- Top Nav Content --*/
@@ -199,6 +200,7 @@ section {
 }
 section:nth-child(even) {
   background: $evenRowBg;
+  background-image: url('../images/hole-background.svg');
 }
 section:nth-child(odd) {
   background: $oddRowBg;
