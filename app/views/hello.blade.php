@@ -167,6 +167,14 @@
 		<div class="row">
 			<h2>Contact</h2>
 			<div class="contact-container ">
+			<label>**Background picture here of my laptop**</label>
+				<hr>
+				<div class="row">
+					<div class="large-12 columns large-centered">
+						<p>My preferred contact method would be {{ HTML::link('mailto:pauljk1988@gmail.com', 'Email')}}, I may not be able to take your call during Office Hours.<br /> I am sometimes available to take a {{ HTML::link('tel:07970271781', 'Call')}} between 13:00 - 14:00. A better time to contact me via {{ HTML::link('tel:07970271781', 'phone')}} would be after 17:00</p>
+						<p><b>Office Hours</b>: Monday to Friday 8:00 - 17:00</p>
+					</div>
+				</div>
 				<hr>
 				<div class="row">
 					<div class="large-12 columns large-centered">
