@@ -28,7 +28,13 @@
 	<section class="bio-row" id="Biography">
 		<div class="row">
 		<h2>Bio</h2>
+		<div class="large-3 column">
+			{{ HTML::image('../images/profile-background.svg', 'Biography', array( 'class' => 'nav-item' ))}}
+		</div>
+		<div class="large-9 column">
+			<p>My name is Paul Kinch, I'm a Web Developer, Web Designer, focusing primarily on the Front-end Development with enough knowledge to get me by in Back-end Developemnt.</p>
 			<p>After earning my BTEC diploma at College and then further studies at University, to obtain my degree in Web and Graphic design, my main objective was to secure employment, to gain experience in this field. I now wish to expand my knowledge and apply my skills into other areas of IT solutions and software development.</p>
+		</div>
 		</div>
 	</section>
 @stop
