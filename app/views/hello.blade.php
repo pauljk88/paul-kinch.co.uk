@@ -20,7 +20,7 @@
 		<div class="parallax-background">
 		  <div class="intro-text">
 		    <p>My picture here, with background and opacity</p>
-		    <a href="#Contact" class="top-parallax-btn">Find my info</a>
+		    <a href="#Contact" class="smooth-scroll">Find my info</a>
 		  </div>
 		</div>
 	</div>

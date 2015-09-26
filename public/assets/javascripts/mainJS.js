@@ -33,7 +33,7 @@ nav.find('a').on('click', function () {
 
 /*-- Smooth Scroll - Assumes no predefined links ref- https://css-tricks.com/snippets/jquery/smooth-scrolling/--*/
 $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
+  $('a.smooth-scroll[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
