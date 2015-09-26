@@ -127,6 +127,7 @@ h2 {
   background-color: $parallaxBg;
   height: 620px;
   background-repeat: no-repeat;
+  background-image: url('../images/strip-background-parallax.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,7 +150,7 @@ h2 {
 .intro-text {
   color: #fff;
   text-align: center;
-  margin-top: 7%;
+  margin-top: 10rem;
 }
 
 .parallax-content {
