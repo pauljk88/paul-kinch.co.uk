@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
+	<title>Paul Kinch | Web Developer &amp; Designer</title>
 <link rel="stylesheet" type="text/css" href="../css/base.css">
 <link rel="stylesheet" type="text/css" href="../css/layout.css">
 <script type="text/javascript" src="../js/expanded/scripts_header.js"></script>

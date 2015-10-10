@@ -97,6 +97,13 @@ h2 {
     }
 }
 
+.profile-pic {
+  position: absolute;
+  width: 250px;
+  left: 4em;
+  top: 8em;
+}
+
 /*-- Bio Content --*/
 .bio-row {
 	background-color: $oddRowBg;
@@ -131,7 +138,6 @@ h2 {
 }
 
 .parallax-background {
-  background-color: $parallaxBg;
   height: 620px;
   background-repeat: no-repeat;
   background-image: url('../images/strip-background-parallax.png');
@@ -155,9 +161,9 @@ h2 {
 }
 
 .intro-text {
-  color: #fff;
+  color: #25373D;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
 .parallax-content {
@@ -207,6 +213,7 @@ section {
 section:nth-child(even) {
   background: $evenRowBg;
   background-image: url('../images/hole-background.svg');
+  display: inline-block;
 }
 section:nth-child(odd) {
   background: $oddRowBg;

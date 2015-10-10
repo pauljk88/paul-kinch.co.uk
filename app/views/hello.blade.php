@@ -6,7 +6,7 @@
 			<ul class="top-nav large-6 large-centered column no-margin">
 				<div class="top-nav-right large-12 medium-12 small-12 columns ">
 					<div class="no-margin no-padding large-5 column">
-						<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#PaulKinchLogo', 'PJK', array( 'class' => 'nav-item logo' ))}}</li>
+						<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#PaulKinchLogo', 'Paul Kinch', array( 'class' => 'nav-item ' ))}}</li>
 						<li class="no-margin no-padding large-6 small-6 columns">{{ HTML::link('#Biography', 'Biography', array( 'class' => 'nav-item' ))}}</li>
 					</div>
 					<div class="no-margin no-padding large-7 column">
@@ -21,8 +21,10 @@
 	<div id="PaulKinchLogo"></div>
 	<div class="parallax-row">
 		<div class="parallax-background" >
+		<div class="large-3 column">
+			{{ HTML::image('../images/profile-pic.png', 'Biography', array( 'class' => 'profile-pic' ))}}
+		</div>
 		  <div class="intro-text" >
-		    <p>My picture here, with background and opacity</p>
 		    <a href="#Contact" class="smooth-scroll">Find my info</a>
 		  </div>
 		</div>
@@ -34,10 +36,7 @@
 	<section class="bio-row" id="Biography">
 		<div class="row">
 		<h2>Bio</h2>
-		<div class="large-3 column">
-			{{ HTML::image('../images/profile-background.svg', 'Biography', array( 'class' => 'nav-item' ))}}
-		</div>
-		<div class="large-9 column">
+		<div class="large-12 column">
 			<p>My name is Paul Kinch, I'm a Web Developer, Web Designer, focusing primarily on the Front-end Development with enough knowledge to get me by in Back-end Developemnt.</p>
 			<p>After earning my BTEC diploma at College and then further studies at University, to obtain my degree in Web and Graphic design, my main objective was to secure employment, to gain experience in this field. I now wish to expand my knowledge and apply my skills into other areas of IT solutions and software development.</p>
 		</div>
